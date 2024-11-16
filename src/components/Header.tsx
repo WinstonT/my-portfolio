@@ -19,7 +19,7 @@ export default function Header(): JSX.Element {
           <button onClick={onMenuPress} type="button">
             <FiMenu
               className={`lg:hidden ${
-                isDropdownVisible ? "text-slate" : "text-white"
+                isDropdownVisible ? "text-black dark:text-slate" : "text-grey dark:text-white"
               }`}
             />
           </button>
@@ -34,7 +34,7 @@ export default function Header(): JSX.Element {
         </>
       </div>
       <div
-        className={`bg-navy flex flex-col w-full top-20 left-0 py-4 px-8 gap-4 lg:hidden ${
+        className={`bg-ghost dark:bg-navy flex flex-col w-full top-20 left-0 py-4 px-8 gap-4 lg:hidden ${
           isDropdownVisible ? "block fixed" : "hidden"
         }`}
       >
