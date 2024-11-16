@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </Link>
         <Link
-          href="https://linkedin.com/in/winston-tandi"
+          href={`${process.env.RESUME_LINK}`}
           target="_blank"
           className="group"
         >
