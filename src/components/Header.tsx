@@ -35,7 +35,7 @@ export default function Header(): JSX.Element {
       </div>
       <div
         className={`bg-ghost dark:bg-navy flex flex-col w-full top-20 left-0 py-4 px-8 gap-4 lg:hidden ${
-          isDropdownVisible ? "block fixed" : "hidden"
+          isDropdownVisible ? "block absolute" : "hidden"
         }`}
       >
         <Link href="/work" onClick={onMenuPress}>

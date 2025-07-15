@@ -15,7 +15,11 @@ export default function Home() {
       title: "Software Engineer",
       date: "Sep 2024 - Now",
       link: "https://invigilo.ai/",
-      points: [],
+      points: [
+        "Improved application security by implementing user access controls and integrating authentication platform",
+        "Researched and developed WhatsApp notifications for real-time AI alerts",
+        "Solved several critical bugs and improved user experience",
+      ],
     },
     {
       company: "Whiz (YC W22)",
